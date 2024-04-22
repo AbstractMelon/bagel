@@ -3,6 +3,7 @@
   let games = await fetch("./games.json")
   games = await games.json()
   games = games.filter(game => game.domain == 1)
+  document.getElementById("count").textContent = games.length
   games.forEach(ee => {
     let e = ee
     let el = document.createElement("button")
