@@ -21,6 +21,7 @@
           }
           *{
             margin:0;
+            border:none;
           }
         </style>
         <iframe src="${domain + e.slug}" style="width:100vw;height:100vh;">
