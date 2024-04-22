@@ -25,7 +25,7 @@
         </style>
         <iframe src="${domain + e.slug}" style="width:100vw;height:100vh;">
         `)
-      }, 200)
+      }, 250)
 
       // document.getElementById("game").src = domain + e.slug
     }
